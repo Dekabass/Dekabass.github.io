@@ -65,7 +65,9 @@
             0% {
                 transform: translate(-50%, -50px) rotate(30deg);
                 opacity: 0;
+                filter: url(#kill);
             }
+
             100% {
                 transform: translate(-50%, 0) rotate(0);
                 opacity: 1;
@@ -124,6 +126,7 @@
             width: 100%;
             height: 100%;
             clip-path: polygon(0% 61%, 100% 61%, 100% 100%, 0% 100%);
+            z-index: 0;
         }
         #toolbar{
             display: block;
@@ -166,8 +169,70 @@
             padding-bottom: 16px;
             background-color: #444;
         }
+
+        #socialContainer{
+            position:absolute;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            height: 10%;
+            overflow: hidden;
+            z-index: 1;
+        }
+
+        #socials{
+            display: block;
+            min-width: 100%;
+            text-align: center;
+            position:absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 50%;
+            animation: socialSlideIn 1.7s ease-out 0s 1;
+        }
+
+        @keyframes socialSlideIn{
+            0% {
+                transform: translate(-50%, 50px);
+                opacity: 0;
+            }
+            100% {
+                transform: translate(-50%, 0);
+                opacity: 1;
+            }
+        }
+
+        #socials a{
+            margin: 40px;
+        }
+
+        #socials a:hover{
+            filter:url(#kill);
+        }
     </style>
     <body>
+        <svg width="0" height="0">
+            <filter id="kill">
+              <feColorMatrix type="matrix" 
+                result="red_"             
+                values="4 0 0 0 0
+                        0 0 0 0 0 
+                        0 0 0 0 0 
+                        0 0 0 1 0"/>
+              <feOffset in="red_" dx="2" dy="0" result="red"/>
+              <feColorMatrix type="matrix" 
+                in="SourceGraphic"             
+                result="blue_"             
+                values="0 0 0 0 0
+                        0 3 0 0 0 
+                        0 0 10 0 0 
+                        0 0 0 1 0"/>
+              <feOffset in="blue_" dx="-3" dy="0" result="blue"/>    
+              <feBlend mode="screen" in="red" in2="blue"/>
+          
+            </filter>
+          </svg>
+
         <div id=bgNoise></div>
         <img src="img/bg.png" id=bg></div>
         <script src="page.js"></script>
@@ -183,6 +248,14 @@
                 <a>About</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a>Contact</a>
+            </div>
+        </div>
+
+        <div id=socialContainer>
+            <div id=socials>
+                <a href = "https://www.youtube.com/channel/UCzRcRpI8z3Cv-wFFMbEecwg"><img src="img/ytSocial.png" /></a>
+                <a href = "https://soundcloud.com/dekabass"><img src="img/scSocial.png" /></a>
+                <a href = "https://discord.gg/HKCd944Ct6"><img src="img/dSocial.png" /></a>
             </div>
         </div>
     </body>
