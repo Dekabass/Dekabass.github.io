@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dekabass - Music</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Music made by Dekabass.">
+        <link rel="icon" href="https://raw.githubusercontent.com/Dekabass/Dekabass.github.io/master/img/dekalogo-transparent.png" type="image/png">
+        <meta name="og:image" content="https://raw.githubusercontent.com/Dekabass/Dekabass.github.io/master/img/dekalogo-transparent.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <style>
+            .square-container {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .square {
+            position: relative;
+                flex-basis: calc(33.333% - 10px);
+                margin: 5px;
+                border: 1px solid;
+                box-sizing: border-box;
+            }
+
+            .square::before {
+                content: '';
+                display: block;
+                padding-top: 100%;
+            }
+
+            @keyframes fade-contrast {
+                0% {
+                    filter: contrast(100%) invert(0%);
+                }
+
+                100% {
+                    filter: contrast(50%) invert(100%);
+                }
+            }
+
+            .square .content {
+                position: absolute;
+                top: 0; left: 0;
+                height: 100%;
+                width: 100%;
+                user-select: none;
+            }
+
+            .square .content:hover {
+                position: absolute;
+                top: 0; left: 0;
+                height: 100%;
+                width: 100%;
+                user-select: none;
+                animation: fade-contrast 0.3s ease-out 0s 1;
+                filter: contrast(50%) invert(100%);
+            }
+
+            #MOrigins {
+                background-image: url(./img/MCoverOrigins.jpg);
+                background-size: 100%;
+            }
+
+            .TBD-text {
+                position: absolute;
+                font-size: large;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%,-100%);
+            }
+
+            #dekalogo {
+                position:relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        </style>
+    </head>
+    <body>
+        <a href="./index.html"><img src="img/dekalogo-transparent.png" width=100 id="dekalogo" /></a>
+        <div class="square-container">
+
+            <div class="square">
+                <a href="https://soundcloud.com/dekabass/sets/origins">
+                    <div class="content" id="MOrigins"></div>
+                </a>
+            </div>
+          
+            <div class="square">
+              <div class="content spread">
+                <p class="TBD-text">T&nbsp;B&nbsp;D</p>
+              </div>
+            </div>
+          
+            <div class="square">
+              <div class="content column">
+                <p class="TBD-text">T&nbsp;B&nbsp;D</p>
+              </div>
+            </div>
+          
+          </div>          
+    </body>
+</html>

@@ -4,7 +4,7 @@
         <title>Dekabass</title>
         <meta charset="UTF-8">
         <meta name="keywords" content="Dekabass">
-        <meta name="description" content="The home of Dekabass on the web.">
+        <meta name="description" content="A home of Dekabass.">
         <link rel="icon" href="https://raw.githubusercontent.com/Dekabass/Dekabass.github.io/master/img/dekalogo-transparent.png" type="image/png">
         <meta name="og:image" content="https://raw.githubusercontent.com/Dekabass/Dekabass.github.io/master/img/dekalogo-transparent.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -132,12 +132,15 @@
             display: block;
             min-width: 100%;
             text-align: center;
-            font-size: 1.1em;
-            font-weight: bold;
+            font-size: 15px;
+            /*font-weight: bold;*/
+            /*letter-spacing: 6px;*/
+            font-variant: small-caps;
+            font-style: italic;
             position:absolute;
             left: 50%;
             transform: translateX(-50%);
-            top: 64%;
+            top: 66%;
             animation: toolbarDrop 1.7s ease-out 0s 1;
         }
 
@@ -155,9 +158,9 @@
         #toolbar a{
             padding: 10px;
             background-color: #222;
-            @import
-            url("https://fonts.googleapis.com/css?family=Cormorant");
-            font-family: Cormorant, serif;
+            color: #fff;
+            text-decoration: none;
+            font-family: Verdana, Geneva, sans-serif;
             transition: all .1s ease-out;
             user-select: none;
         }
@@ -241,7 +244,7 @@
         <hr/>
         <div id=toolbarContainer>
             <div id=toolbar>
-                <a>Music</a>
+                <a href="./music.html">Music</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <a>Artists</a>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

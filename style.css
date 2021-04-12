@@ -5,10 +5,10 @@
   animation-play-state: paused !important;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Asap");
+
 body{
     background-color: black;
     color: white;
-    @import
-    url("https://fonts.googleapis.com/css?family=Asap");
     font-family: Asap, sans-serif;
 }
