@@ -31,6 +31,7 @@
     .card {
       box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
       margin: 8px;
+      min-height: 500px;
     }
 
     .about-section {
@@ -71,25 +72,72 @@
         bottom: 50%;
     }
 
+    .socials a:hover{
+        filter:url(#kill);
+    }
+
     .artist-pic{
         box-shadow: inset 0 0 100px black;
         -moz-user-select: none;
         -webkit-user-select: none;
         width: 100%;
-        height:200px;
+        height: 0;
+        padding-top: 60%;
         background-repeat: no-repeat;
         background-size: cover;
+        background-position-x: center; 
+        background-position-y: 55%;
+        filter: grayscale(90%) brightness(60%);
     }
 
+    @keyframes fade-contrast {
+        0% {
+            filter: grayscale(90%) brightness(60%);
+            background-position-y: 55%;
+        }
+
+        100% {
+            filter: grayscale(0%) brightness(100%);
+            background-position-y: 50%;
+        }
+    }
+
+    .column:hover .artist-pic{
+      animation: fade-contrast 0.3s ease-out 0s 1;
+      filter: grayscale(0%) brightness(100%);
+      background-position-y: 50%;
+    }
     </style>
 
 </head>
 
 <body>
+<svg width="0" height="0">
+  <filter id="kill">
+    <feColorMatrix type="matrix" 
+      result="red_"             
+      values="4 0 0 0 0
+              0 0 0 0 0 
+              0 0 0 0 0 
+              0 0 0 1 0"/>
+    <feOffset in="red_" dx="2" dy="0" result="red"/>
+    <feColorMatrix type="matrix" 
+      in="SourceGraphic"             
+      result="blue_"             
+      values="0 0 0 0 0
+              0 3 0 0 0 
+              0 0 10 0 0 
+              0 0 0 1 0"/>
+    <feOffset in="blue_" dx="-3" dy="0" result="blue"/>    
+    <feBlend mode="screen" in="red" in2="blue"/>
+
+  </filter>
+</svg>
+
 <div class="about-section">
     <a href="./index.html"><img src="img/dekalogo-transparent.png" width=100 id="dekalogo" /></a>
     <h1>Artists</h1>
-    <p>(Anyone who has at least one release on Dekabass.)</p>
+    <p>(Anyone who has or will have at least one release on Dekabass.)</p>
     <br/> 
     <p>Satellite Member -- Irregular releases , and aren't a permanant member of Dekabass.</p>
     <p>Core Member -- Regularly have releases, and are more-or-less a permanant member. They "run" Dekabass.</p>
@@ -116,30 +164,30 @@
   </div>
 
   <div class="column">
-    <div class="card">
-        <div class="artist-pic" style="background-image: url(./img/logoChron.png);"></div>
+    <div class="card"> 
+      <div class="artist-pic" style="background-image: url(./img/logoEcho.jpg);"></div>
       <div class="container">
-        <h2>Chronon</h2>
-        <p class="title">Extra info blurb</p>
-        <p>Description -- supplied by artists and TBD</p>
+        <h2>Echozki</h2>
+        <p class="title">“Nothing will work unless you do.”</p>
+        <p>I am Echozki. I play games and make music. I believe music should be made with emotion and story. I am a member of Dekabass. I can do visual art. I can edit videos. Ye</p>
         <p class="socials">
-            <a href = "https://www.youtube.com/channel/UChTD2gXBOvmzE-6hP1suYKw"><img src="img/ytSocial.png" /></a>
-            <a href = "https://soundcloud.com/chronon-idm"><img src="img/scSocial.png" /></a>
+            <a href = "https://www.youtube.com/channel/UCL2Pe4ZDLrshtstbg_ZEX3Q"><img src="img/ytSocial.png" /></a>
+            <a href = "https://soundcloud.com/echo-o-o"><img src="img/scSocial.png" /></a>
         </p>
       </div>
     </div>
   </div>
 
   <div class="column">
-    <div class="card"> 
-      <div class="artist-pic" style="background-image: url(./img/logoEcho.jpg);"></div>
+    <div class="card">
+        <div class="artist-pic" style="background-image: url(./img/logoGlum.jpg);"></div>
       <div class="container">
-        <h2>Echozki</h2>
+        <h2>Glum</h2>
         <p class="title">Extra info blurb</p>
-        <p>Description -- supplied by artists and TBD</p>
+        <p>Bass music producer from the UK.</p>
         <p class="socials">
-            <a href = "https://www.youtube.com/channel/UCL2Pe4ZDLrshtstbg_ZEX3Q"><img src="img/ytSocial.png" /></a>
-            <a href = "https://soundcloud.com/echo-o-o"><img src="img/scSocial.png" /></a>
+            <a href = "https://www.youtube.com/channel/UCt5kNc8VEIX5qEqfVJfcnfQ"><img src="img/ytSocial.png" /></a>
+            <a href = "https://soundcloud.com/glumbass"><img src="img/scSocial.png" /></a>
         </p>
       </div>
     </div>
@@ -150,7 +198,7 @@
       <div class="artist-pic" style="background-image: url(./img/logoGzap.jpg);"></div>
       <div class="container">
         <h2>GZAPPLE</h2>
-        <p class="title">Extra info blurb</p>
+        <p class="title">"I do sounds because i am bored, and also my dog is barking brb"</p>
         <p>Description -- supplied by artists and TBD</p>
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCwTZF8QB4WlCYjxWnmnYNhg"><img src="img/ytSocial.png" /></a>
@@ -165,8 +213,8 @@
       <div class="artist-pic" style="background-image: url(./img/logoTal.jpg);"></div>
       <div class="container">
         <h2>Talurre</h2>
-        <p class="title">Extra info blurb</p>
-        <p>Description -- supplied by artists and TBD</p>
+        <p class="title">"Hamburger"</p>
+        <p>Producer from Russia. Trying to combine my favorite aspects of music together into something powerful and unique.</p>
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCCYs-1MJ05rqQDEPQ8_HFhg"><img src="img/ytSocial.png" /></a>
             <a href = "https://soundcloud.com/teslax11"><img src="img/scSocial.png" /></a>
@@ -180,7 +228,7 @@
       <div class="artist-pic" style="background-image: url(./img/logoTem.jpg);"></div>
       <div class="container">
         <h2>Temnai</h2>
-        <p class="title">Extra info blurb</p>
+        <p class="title">"Not in any way affiliated with Teminite."</p>
         <p>Description -- supplied by artists and TBD</p>
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCHqpNg0f8nHz13sqEjO1RBA"><img src="img/ytSocial.png" /></a>
@@ -210,8 +258,8 @@
       <div class="artist-pic" style="background-image: url(./img/logoUx.jpg);"></div>
       <div class="container">
         <h2>Uxvellda</h2>
-        <p class="title">Extra info blurb</p>
-        <p>Description -- supplied by artists and TBD</p>
+        <p class="title">"Human being who makes art of sound from the group Heckabilly"</p>
+        <p>I make and play music because it is my passion.</p>
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCJayL8EeIpvvr-a9bNw4S7Q"><img src="img/ytSocial.png" /></a>
             <a href = "https://soundcloud.com/uxvellda"><img src="img/scSocial.png" /></a>
@@ -224,9 +272,9 @@
     <div class="card"> 
       <div class="artist-pic" style="background-image: url(./img/logoWoo.jpg);"></div>
       <div class="container">
-        <h2>notWoowoo</h2>
-        <p class="title">Extra info blurb</p>
-        <p>Description -- supplied by artists and TBD</p>
+        <h2>Woowoo</h2>
+        <p class="title">"Also known as notWoowoo."</p>
+        <p>I'm an electronic music producer (obviously). What do I make? <i>I'm</i> not even sure half the time, But I think you might like it... (that's your cue to listen). Also I do other stuff.</p>
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCjxA_e2hpQouFRjW3u-4k-Q"><img src="img/ytSocial.png" /></a>
             <a href = "https://soundcloud.com/notwoowoo"><img src="img/scSocial.png" /></a>
@@ -246,8 +294,8 @@
           <div class="artist-pic" style="background-image: url(./img/logoFinn.jpg);"></div>
           <div class="container">
             <h2>FinnC2</h2>
-            <p class="title">Extra info blurb</p>
-            <p>Description -- supplied by artists and TBD</p>
+            <p class="title">"i kinda suck"</p>
+            <p>Im an electronic music producer that makes dubstep and mainly focuses on the melodic elements. I love to make color bass, future bass and melodic dubstep.</p>
             <p class="socials">
                 <a href = "https://www.youtube.com/channel/UCD7_attYCPLIC9wShfF6QKw"><img src="img/ytSocial.png" /></a>
                 <a href = "https://soundcloud.com/finnc2-music"><img src="img/scSocial.png" /></a>
