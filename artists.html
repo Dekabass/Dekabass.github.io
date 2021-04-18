@@ -31,12 +31,12 @@
     .card {
       box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);
       margin: 8px;
-      min-height: 500px;
+      min-height: 555px;
     }
 
-    @media (min-width: 1400px) {
+    @media (min-width: 1450px) {
       .card{
-        min-height: 600px;
+        min-height: 625px;
       }
     }
 
@@ -50,7 +50,7 @@
     .container {
       padding: 0 16px;
     }
-
+    
     .container::after, .row::after {
       content: "";
       clear: both;
@@ -75,7 +75,11 @@
         text-align: center;
         left: 50%;
         transform: translateX(-50%);
-        bottom: 50%;
+        bottom: 0px;
+    }
+
+    .socials a{
+        margin: 10px;
     }
 
     .socials a:hover{
@@ -113,6 +117,10 @@
       filter: grayscale(0%) brightness(100%);
       background-position-y: 50%;
     }
+
+    #dekalogo:hover{
+        filter:url(#kill);
+    }
     </style>
 
 </head>
@@ -141,7 +149,7 @@
 </svg>
 
 <div class="about-section">
-    <a href="./index.html"><img src="img/dekalogo-transparent.png" width=100 id="dekalogo" /></a>
+    <a href="./index.html" id="dekalogo"><img src="img/dekalogo-transparent.png" width=100 /></a>
     <h1>Artists</h1>
     <p>(Anyone who has or will have at least one release on Dekabass.)</p>
     <br/> 
@@ -159,8 +167,8 @@
         <div class="artist-pic" style="background-image: url(./img/logoBleeve.jpg);"></div>
       <div class="container">
         <h2>Bleeve</h2>
-        <p class="title">Extra info blurb</p>
-        <p>Description -- supplied by artists and TBD</p>
+        <p class="title">"Got a thumbs up from a big artist once :)"</p>
+        <p>Bleeve is an up and coming heavy drum and bass producer. Using killer basses and punchy drums, he takes dnb to a new level.</p>
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCmFIIoNY4UHShwwuRWLvk1g"><img src="img/ytSocial.png" /></a>
             <a href = "https://soundcloud.com/bleevemusicofficial"><img src="img/scSocial.png" /></a>
@@ -209,6 +217,7 @@
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCwTZF8QB4WlCYjxWnmnYNhg"><img src="img/ytSocial.png" /></a>
             <a href = "https://soundcloud.com/gzap-78520227"><img src="img/scSocial.png" /></a>
+            <a href = "https://linktr.ee/GZAPPLE"><img src="img/ltSocial.png" /></a>
         </p>
       </div>
     </div>

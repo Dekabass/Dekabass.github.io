@@ -8,7 +8,9 @@
 @import url("https://fonts.googleapis.com/css?family=Asap");
 
 body{
-    background-color: black;
+    background-color: rgb(20, 20, 20);
     color: white;
     font-family: Asap, sans-serif;
 }
+
+p { color: #ffffff; font-family: 'Helvetica Neue', sans-serif; font-size: 14px; line-height: 24px; margin: 0 0 24px;}

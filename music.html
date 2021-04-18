@@ -9,13 +9,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
         <style>
+            body {
+                margin: 0;
+            }
+
             .square-container {
                 display: flex;
                 flex-wrap: wrap;
+                margin: 20px;
             }
 
             .square {
-            position: relative;
+                position: relative;
                 flex-basis: calc(33.333% - 10px);
                 margin: 5px;
                 border: 1px solid;
@@ -30,11 +35,11 @@
 
             @keyframes fade-contrast {
                 0% {
-                    filter: contrast(100%) invert(0%);
+                    filter: contrast(100%) brightness(100%) blur(0);
                 }
 
                 100% {
-                    filter: contrast(50%) invert(100%);
+                    filter: contrast(130%) brightness(50%) blur(1px);
                 }
             }
 
@@ -46,19 +51,17 @@
                 user-select: none;
             }
 
-            .square .content:hover {
-                position: absolute;
+            .square:hover .content{
+                animation: fade-contrast 0.3s ease-out 0s 1;
+                filter: contrast(130%) brightness(50%) blur(1px);
+            }
+
+            .square .content img{
+                position:absolute;
                 top: 0; left: 0;
                 height: 100%;
                 width: 100%;
-                user-select: none;
-                animation: fade-contrast 0.3s ease-out 0s 1;
-                filter: contrast(50%) invert(100%);
-            }
-
-            #MOrigins {
-                background-image: url(./img/MCoverOrigins.jpg);
-                background-size: 100%;
+                z-index: -1;
             }
 
             .TBD-text {
@@ -75,11 +78,68 @@
                 background-color: #1f1f1f;
                 color: white;
             }
+
+            .square .socials{
+                position: absolute;
+                display: block;
+                bottom: 0px;
+                left: 0px;
+                width: 100%;
+                height: 20%;
+                text-align: center;
+                z-index: 2;
+            }
+
+            .socials a{
+                margin: 10px;
+            }
+
+            @media (min-width: 1400px) {
+                .square .socials{
+                    height: 10%;
+                }
+            }
+
+            @media (min-width: 1000px) {
+                .socials a{
+                    margin: 40px;
+                }
+            }
+
+            .socials a:hover{
+                filter:url(#kill);
+            }
+
+            #dekalogo:hover{
+                filter:url(#kill);
+            }
         </style>
     </head>
     <body>
+        <svg width="0" height="0">
+            <filter id="kill">
+              <feColorMatrix type="matrix" 
+                result="red_"             
+                values="4 0 0 0 0
+                        0 0 0 0 0 
+                        0 0 0 0 0 
+                        0 0 0 1 0"/>
+              <feOffset in="red_" dx="2" dy="0" result="red"/>
+              <feColorMatrix type="matrix" 
+                in="SourceGraphic"             
+                result="blue_"             
+                values="0 0 0 0 0
+                        0 3 0 0 0 
+                        0 0 10 0 0 
+                        0 0 0 1 0"/>
+              <feOffset in="blue_" dx="-3" dy="0" result="blue"/>    
+              <feBlend mode="screen" in="red" in2="blue"/>
+          
+            </filter>
+        </svg>
+
         <div class="about-section">
-            <a href="./index.html"><img src="img/dekalogo-transparent.png" width=100 id="dekalogo" /></a>
+            <a href="./index.html" id="dekalogo"><img src="img/dekalogo-transparent.png" width=100/></a>
             <h1>Music</h1>
             <p>Latest releases are first.</p>
         </div>
@@ -87,9 +147,14 @@
         <div class="square-container">
 
             <div class="square">
-                <a href="https://soundcloud.com/dekabass/sets/origins">
-                    <div class="content" id="MOrigins"></div>
-                </a>
+                <div class="content spread">
+                    <img src="img/MCoverOrigins.jpg" />
+                </div>
+
+                <div class="socials">
+                    <a href = "https://www.youtube.com/playlist?list=PLpVJIt6ErLKZOP6rqmcVb5FO-NrQucEAT"><img src="img/ytSocial.png" id="dekalogo" /></a>
+                    <a href = "https://soundcloud.com/dekabass/sets/origins"><img src="img/scSocial.png" /></a>
+                </div>
             </div>
           
             <div class="square">
