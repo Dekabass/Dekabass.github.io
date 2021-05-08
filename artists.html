@@ -43,7 +43,8 @@
     .about-section {
       padding: 50px;
       text-align: center;
-      background-color: #1f1f1f;
+      background-color: #111;
+      box-shadow: inset 0 4px 100px 0 rgba(255, 255, 255, 0.1);
       color: white;
     }
 
@@ -122,32 +123,9 @@
         filter:url(#kill);
     }
     </style>
-
 </head>
 
 <body>
-<svg width="0" height="0">
-  <filter id="kill">
-    <feColorMatrix type="matrix" 
-      result="red_"             
-      values="4 0 0 0 0
-              0 0 0 0 0 
-              0 0 0 0 0 
-              0 0 0 1 0"/>
-    <feOffset in="red_" dx="2" dy="0" result="red"/>
-    <feColorMatrix type="matrix" 
-      in="SourceGraphic"             
-      result="blue_"             
-      values="0 0 0 0 0
-              0 3 0 0 0 
-              0 0 10 0 0 
-              0 0 0 1 0"/>
-    <feOffset in="blue_" dx="-3" dy="0" result="blue"/>    
-    <feBlend mode="screen" in="red" in2="blue"/>
-
-  </filter>
-</svg>
-
 <div class="about-section">
     <a href="./index.html" id="dekalogo"><img src="img/dekalogo-transparent.png" width=100 /></a>
     <h1>Artists</h1>
@@ -197,8 +175,8 @@
         <div class="artist-pic" style="background-image: url(./img/logoGlum.jpg);"></div>
       <div class="container">
         <h2>Glum</h2>
-        <p class="title">Extra info blurb</p>
-        <p>Bass music producer from the UK.</p>
+        <p class="title">"I haven't thought of a creative quote yet."</p>
+        <p>Bass producer from the UK</p>
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCt5kNc8VEIX5qEqfVJfcnfQ"><img src="img/ytSocial.png" /></a>
             <a href = "https://soundcloud.com/glumbass"><img src="img/scSocial.png" /></a>
@@ -213,7 +191,7 @@
       <div class="container">
         <h2>GZAPPLE</h2>
         <p class="title">"I do sounds because i am bored, and also my dog is barking brb"</p>
-        <p>Description -- supplied by artists and TBD</p>
+        <p>Musician who does whatever he feels like doing.</p>
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCwTZF8QB4WlCYjxWnmnYNhg"><img src="img/ytSocial.png" /></a>
             <a href = "https://soundcloud.com/gzap-78520227"><img src="img/scSocial.png" /></a>
@@ -244,25 +222,10 @@
       <div class="container">
         <h2>Temnai</h2>
         <p class="title">"Not in any way affiliated with Teminite."</p>
-        <p>Description -- supplied by artists and TBD</p>
+        <p>I am a monke i go ooh ooh aah aah</p>
         <p class="socials">
             <a href = "https://www.youtube.com/channel/UCHqpNg0f8nHz13sqEjO1RBA"><img src="img/ytSocial.png" /></a>
             <a href = "https://soundcloud.com/temnai"><img src="img/scSocial.png" /></a>
-        </p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card"> 
-      <div class="artist-pic" style="background-image: url(./img/logoMage.jpg);"></div>
-      <div class="container">
-        <h2>TheDarkMage</h2>
-        <p class="title">Extra info blurb</p>
-        <p>Description -- supplied by artists and TBD</p>
-        <p class="socials">
-            <a href = "https://www.youtube.com/channel/UCWq_5EDGQKdHj5fEDAQUrzg"><img src="img/ytSocial.png" /></a>
-            <a href = "https://soundcloud.com/user-710408576"><img src="img/scSocial.png" /></a>
         </p>
       </div>
     </div>
@@ -319,6 +282,28 @@
         </div>
       </div>
 </div>
+
+<svg width="0" height="0">
+  <filter id="kill">
+    <feColorMatrix type="matrix" 
+      result="red_"             
+      values="4 0 0 0 0
+              0 0 0 0 0 
+              0 0 0 0 0 
+              0 0 0 1 0"/>
+    <feOffset in="red_" dx="2" dy="0" result="red"/>
+    <feColorMatrix type="matrix" 
+      in="SourceGraphic"             
+      result="blue_"             
+      values="0 0 0 0 0
+              0 3 0 0 0 
+              0 0 10 0 0 
+              0 0 0 1 0"/>
+    <feOffset in="blue_" dx="-3" dy="0" result="blue"/>    
+    <feBlend mode="screen" in="red" in2="blue"/>
+
+  </filter>
+</svg>
 
 </body>
 </html>
