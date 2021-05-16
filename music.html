@@ -8,6 +8,7 @@
         <meta name="og:image" content="https://raw.githubusercontent.com/Dekabass/Dekabass.github.io/master/img/dekalogo-transparent.png">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="./style_nonindex.css">
         <style>
             body {
                 margin: 0;
@@ -56,6 +57,10 @@
                 filter: contrast(130%) brightness(50%) blur(1px);
             }
 
+            .square:hover .socials a {
+                opacity: 1;
+            }
+
             .square .content img{
                 position:absolute;
                 top: 0; left: 0;
@@ -92,6 +97,7 @@
             }
 
             .socials a{
+                opacity: 0;
                 margin: 10px;
             }
 
@@ -119,11 +125,34 @@
     <body>
         <div class="about-section">
             <a href="./index.html" id="dekalogo"><img src="img/dekalogo-transparent.png" width=100/></a>
+            <div id=toolbarContainer>
+                <div id=toolbar>
+                    <a href="./music.html">Music</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="./artists.html">Artists</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="./about.html">About</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="./contact.html">Contact</a>
+                </div>
+            </div>
+            <hr />
             <h1>Music</h1>
             <p>Latest releases are first.</p>
         </div>
         
         <div class="square-container">
+
+            <div class="square">
+                <div class="content spread">
+                    <a href = "https://www.youtube.com/watch?v=fwYmD7GofF0"><img src="img/MCoverWOR.png" /></a>
+                </div>
+
+                <div class="socials">
+                    <a href = "https://www.youtube.com/watch?v=fwYmD7GofF0"><img src="img/ytSocial.png" id="dekalogo" /></a>
+                    <a href = "https://soundcloud.com/echo-o-o/waves-of-reality-1"><img src="img/scSocial.png" /></a>
+                </div>
+            </div>
 
             <div class="square">
                 <div class="content spread">
@@ -134,12 +163,6 @@
                     <a href = "https://www.youtube.com/playlist?list=PLpVJIt6ErLKZOP6rqmcVb5FO-NrQucEAT"><img src="img/ytSocial.png" id="dekalogo" /></a>
                     <a href = "https://soundcloud.com/dekabass/sets/origins"><img src="img/scSocial.png" /></a>
                 </div>
-            </div>
-          
-            <div class="square">
-              <div class="content spread">
-                <p class="TBD-text">T&nbsp;B&nbsp;D</p>
-              </div>
             </div>
           
             <div class="square">
