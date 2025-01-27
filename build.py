@@ -85,7 +85,7 @@ chroma_filter = '''
 '''
 
 def make_page(name, content, page_title=None, extra_head=None):
-    with open(f'./{unfmt(name)}', 'w') as f:
+    with open(f'./{unfmt(name)}.html', 'w') as f:
         f.write(html(
             head(
                 meta(charset='UTF-8'),
@@ -171,7 +171,7 @@ def make_social_media_section():
 
 # -------- 404 -------- #
 
-make_page('404.html', page_title='404 - Dekabass',
+make_page('404',
     content=elems(
         h1('404'),
         p('It seems you have gotten lost in the kingdom.'),
@@ -506,7 +506,7 @@ window.addEventListener('load', () => {
 
 # -------- LANDING -------- #
 
-make_page('index.html', page_title='Dekabass',
+make_page('index', page_title='Dekabass',
     extra_head=style('''
         /* Do not play animations until page is visible */
         .js-loading *,
