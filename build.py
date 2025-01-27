@@ -394,6 +394,28 @@ def make_artist_card(data):
 
 make_page('Artists',
     elems(
+        script('''
+// Scroll to target element
+function centerTarget() {
+const target = document.querySelector(location.hash);
+    if (target) {
+      const targetRect = target.getBoundingClientRect();
+      const scrollY = window.scrollY || window.pageYOffset;
+      
+      const centerPosition = targetRect.top + scrollY - (window.innerHeight / 2) + (targetRect.height / 2);
+      
+      window.scrollTo({
+        top: centerPosition,
+        behavior: 'smooth'
+      });
+    }
+}
+
+window.addEventListener('load', () => {
+    if(location.hash)
+        centerTarget();
+});
+'''),
         main(
             make_header('Artists'),
             section(
@@ -478,29 +500,7 @@ make_page('Artists',
                 )
             ),
             make_social_media_section()
-        ),
-        script('''
-// Scroll to target element
-function centerTarget() {
-const target = document.querySelector(location.hash);
-    if (target) {
-      const targetRect = target.getBoundingClientRect();
-      const scrollY = window.scrollY || window.pageYOffset;
-      
-      const centerPosition = targetRect.top + scrollY - (window.innerHeight / 2) + (targetRect.height / 2);
-      
-      window.scrollTo({
-        top: centerPosition,
-        behavior: 'smooth'
-      });
-    }
-}
-
-window.addEventListener('load', () => {
-    if(location.hash)
-        centerTarget();
-});
-''')
+        )
     )
 )
 

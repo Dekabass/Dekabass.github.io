@@ -14,6 +14,30 @@
 
     </head>
     <body>
+        <script>
+
+            // Scroll to target element
+            function centerTarget() {
+            const target = document.querySelector(location.hash);
+                if (target) {
+                  const targetRect = target.getBoundingClientRect();
+                  const scrollY = window.scrollY || window.pageYOffset;
+      
+                  const centerPosition = targetRect.top + scrollY - (window.innerHeight / 2) + (targetRect.height / 2);
+      
+                  window.scrollTo({
+                    top: centerPosition,
+                    behavior: 'smooth'
+                  });
+                }
+            }
+
+            window.addEventListener('load', () => {
+                if(location.hash)
+                    centerTarget();
+            });
+
+        </script>
         <main>
             <header>
                 <div></div>
@@ -440,30 +464,6 @@
                 </div>
             </section>
         </main>
-        <script>
-
-            // Scroll to target element
-            function centerTarget() {
-            const target = document.querySelector(location.hash);
-                if (target) {
-                  const targetRect = target.getBoundingClientRect();
-                  const scrollY = window.scrollY || window.pageYOffset;
-      
-                  const centerPosition = targetRect.top + scrollY - (window.innerHeight / 2) + (targetRect.height / 2);
-      
-                  window.scrollTo({
-                    top: centerPosition,
-                    behavior: 'smooth'
-                  });
-                }
-            }
-
-            window.addEventListener('load', () => {
-                if(location.hash)
-                    centerTarget();
-            });
-
-        </script>
 
         <svg width="0" height="0">
             <filter id="chroma">
