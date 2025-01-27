@@ -108,7 +108,7 @@ def make_page(name, content, page_title=None, extra_head=None):
 
 def make_header(current_page_name):
     headers = [
-        ('Home', 'index.html'),
+        ('Home', '/'),
         ('Artists', None),
         ('Releases', None),
         ('Contact', None),
