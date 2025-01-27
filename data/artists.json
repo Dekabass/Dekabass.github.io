@@ -1,0 +1,284 @@
+[
+    {
+        "name": "not_woowoo",
+        "type": "core",
+
+        "links": {
+            "youtube":    "https://www.youtube.com/channel/UCjxA_e2hpQouFRjW3u-4k-Q",
+            "soundcloud": "https://soundcloud.com/notwoowoo",
+            "newgrounds": "https://gdwoowoo.newgrounds.com/",
+            "bandcamp":   "https://notwoowoo.bandcamp.com",
+            "spotify":    "https://open.spotify.com/artist/52BvAHjyDsbXWhHUb5IZ12"
+        },
+
+        "img": "img/logo-not_woowoo.jpg",
+
+        "oneliner": "I'm a professional, trust me.",
+        "bio": "My musical journey was put into motion in the year 13.8 billion (BC) when a universe emerged with adequate conditions for me to exist. The rest is history."
+    },
+    {
+        "name": "Bleeve",
+        "type": "core",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCmFIIoNY4UHShwwuRWLvk1g",
+            "soundcloud": "https://soundcloud.com/bleevemusicofficial",
+            "linktree" : "https://linktr.ee/BleeveMusic",
+            "newgrounds": "https://bleeve.newgrounds.com/",
+            "spotify": "https://open.spotify.com/artist/7HeZ9OeuUlzLVRgrFRtKhH"
+        },
+
+        "img": "img/logo-Bleeve.jpg",
+
+        "oneliner": "yo what's poppin",
+        "bio": "Bleeve is an up and coming heavy drum and bass producer. Using killer basses and punchy drums, he takes dnb to a new level."
+    },
+    {
+        "name": "Echozki",
+        "type": "core",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCL2Pe4ZDLrshtstbg_ZEX3Q",
+            "soundcloud": "https://soundcloud.com/echozki",
+            "newgrounds": "https://echo-games-music.newgrounds.com/"
+        },
+
+        "img": "img/logo-Echozki.jpg",
+
+        "oneliner": "Nothing will work unless you do.",
+        "bio": "I am Echozki. I like to play games and make music that has emotion and story attached."
+    },
+    {
+        "name": "Glum",
+        "type": "core",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCt5kNc8VEIX5qEqfVJfcnfQ",
+            "soundcloud": "https://soundcloud.com/glumbass"
+        },
+
+        "img": "img/logo-Glum.jpg",
+
+        "oneliner": "I haven't thought of a creative quote yet.",
+        "bio": "Bass producer from the UK"
+    },
+    {
+        "name": "GZAPPLE",
+        "type": "core",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCwTZF8QB4WlCYjxWnmnYNhg",
+            "soundcloud": "https://soundcloud.com/gzapple",
+            "linktree": "https://linktr.ee/GZAPPLE"
+        },
+
+        "img": "img/logo-GZAPPLE.jpg",
+
+        "oneliner": "I do sounds because i am bored, and also my dog is barking brb",
+        "bio": "Musician who does whatever he feels like doing."
+    },
+    {
+        "name": "Uxvellda",
+        "type": "core",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCJayL8EeIpvvr-a9bNw4S7Q",
+            "soundcloud": "https://soundcloud.com/uxvellda"
+        },
+
+        "img": "img/logo-Uxvellda.jpg",
+
+        "oneliner": "Human being who makes art of sound from the group Heckabilly",
+        "bio": "I make and play music because it is my passion."
+    },
+
+
+
+    {
+        "name": "FinnC2",
+        "type": "satellite",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCD7_attYCPLIC9wShfF6QKw",
+            "soundcloud": "https://soundcloud.com/finnc2-music"
+        },
+
+        "img": "img/logo-FinnC2.jpg",
+
+        "oneliner": "I bought a burial vinyl.",
+        "bio": "FinnC2 is a Canadian music producer trying to push the boundaries of Melodic Bass music as well as how deep future garage can get."
+    },
+    {
+        "name": "proggleyes",
+        "type": "satellite",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UC0rxkwqxxIJ4qImjzGzXJiw",
+            "soundcloud": "https://soundcloud.com/proggleyes"
+        },
+
+        "img": "img/logo-proggleyes.jpg",
+
+        "oneliner": "peak yourself",
+        "bio": "Canada based producer experimenting with genres in EDM."
+    },
+    {
+        "name": "Xliexe",
+        "type": "core",
+
+        "links": {
+            "linktree": "https://linktr.ee/Xliexe"
+        },
+
+        "img": "img/logo-Xliexe.png",
+
+        "oneliner": "Lost in Sound",
+        "bio": "Making danceable music until my legs fall off"
+    },
+    {
+        "name": "ProjectHMF",
+        "type": "satellite",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCPuflVhaVZRsY8L1_cohsIw",
+            "soundcloud": "https://soundcloud.com/user-879830494-15094656",
+            "newgrounds": "https://hugohmf.newgrounds.com/",
+            "spotify": "https://open.spotify.com/artist/3dAVGddv1RkcJQCiPSogRZ"
+        },
+
+        "img": "img/logo-ProjectHMF.jpeg",
+
+        "oneliner": "Sonic dualist since 2022.",
+        "bio": "Trying to merge sonic worlds. My main focus is to create unique music, combining electronic elements with more traditional instruments and organic sounds."
+    },
+    {
+        "name": "JustTop",
+        "type": "satellite",
+
+        "links": {
+            "youtube": "https://youtube.com/@justtop3449",
+            "soundcloud": "https://on.soundcloud.com/iPTA1dbsRVsNPcgp6",
+            "instagram": "https://www.instagram.com/iamjusttop",
+            "linktree": "https://tr.ee/8mj6x7gWMH",
+            "newgrounds": "https://justtop.newgrounds.com/",
+            "spotify": "https://open.spotify.com/artist/5uOv0zRW1RQC51AtjVFdvn"
+        },
+
+        "img": "img/logo-JustTop.png",
+
+        "oneliner": "Real name: Ivan. 20 yo. Ukraine.",
+        "bio": "Creator of dynamic electronic music, mostly 2 tracks per year"
+    },
+    {
+        "name": "osol",
+        "type": "satellite",
+
+        "links": {
+            "youtube": "https://www.youtube.com/@osolmusic",
+            "soundcloud": "https://soundcloud.com/osolmusic",
+            "spotify": "https://open.spotify.com/artist/7cpQV10rWewTto9qKyq9gE?si=-gnUn8d0T2OMN7RFORkv2A",
+            "apple-music": "https://music.apple.com/us/artist/osol/1750084613"
+        },
+
+        "img": "img/logo-osol.png",
+
+        "oneliner": "atmospheric dubstep",
+        "bio": "osol makes deep, dark, electronic music with shimmering melodies, heavy bass, and pounding drums."
+    },
+    {
+        "name": "Phaceless",
+        "type": "satellite",
+
+        "links": {
+            "youtube": "#"
+        },
+
+        "img": "#",
+
+        "oneliner": "tbd",
+        "bio": "tbd"
+    },
+    {
+        "name": "DEMON AND MAX",
+        "type": "satellite",
+
+        "links": {
+            "youtube": "https://www.youtube.com/@DEMON_AND_MAX",
+            "soundcloud": "https://soundcloud.com/demon_and_max",
+            "newgrounds": "https://demon-and-max.newgrounds.com/",
+            "bandcamp": "https://demon-and-max.bandcamp.com/",
+            "instagram": "https://www.instagram.com/demon.and.max",
+            "tiktok": "https://www.tiktok.com/@demon_and_max",
+            "gumroad": "https://towerofbabel.gumroad.com/"
+        },
+
+        "img": "img/logo-DEMONANDMAX.png",
+
+        "oneliner": "i make lots of fun stuff",
+        "bio": "music, sounds, gen art, game dev, machine learning, web dev, collage, photoscanning, 3d modelling--- i do everything my b."
+    },
+    {
+        "name": "vékks",
+        "type": "satellite",
+
+        "links": {
+            "youtube": "#"
+        },
+
+        "img": "img/logo-vekks.png",
+
+        "oneliner": "tbd",
+        "bio": "tbd"
+    },
+    {
+        "name": "ARKANGELS",
+        "type": "satellite",
+
+        "links": {
+            "youtube": "#"
+        },
+
+        "img": "#",
+
+        "oneliner": "tbd",
+        "bio": "tbd"
+    },
+
+
+
+    {
+        "name": "Beastkiller (Rest in Peace)",
+        "type": "past",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCfN2ZMzdxqzI5lBgonD3zAQ",
+            "spotify": "https://open.spotify.com/artist/1FybW43gOqsuJtpNwweQj4?si=actH6FLRSSuAAr8I1qyCLA&nd=1&dlsi=16af3e9c67d54029",
+            "soundcloud": "https://soundcloud.com/user-beastkiller"
+        }
+    },
+    {
+        "name": "TheDarkMage",
+        "type": "past",
+
+        "links": {
+            "youtube": "#"
+        }
+    },
+    {
+        "name": "Sabre",
+        "type": "past",
+
+        "links": {
+            "youtube": "https://www.youtube.com/@SABREEE"
+        }
+    },
+    {
+        "name": "Temnai",
+        "type": "past",
+
+        "links": {
+            "youtube": "https://www.youtube.com/channel/UCHqpNg0f8nHz13sqEjO1RBA",
+            "soundcloud": "https://soundcloud.com/temnai"
+        }
+    }
+]

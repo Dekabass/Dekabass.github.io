@@ -1,0 +1,450 @@
+[
+    {
+        "name": "Anniversary Vol. 4",
+        "date": "Jan 1 2025",
+        "date_end": "ongoing",
+        "img": "img/rel-AnniversaryVol4.jpg",
+        "tracks": [
+            {
+                "name": "rock me b",
+                "artists": ["DEMON AND MAX"]
+            },
+            {
+                "name": "6pm",
+                "artists": ["FinnC2"]
+            },
+            {
+                "name": "Orale!",
+                "artists": ["Xliexe"]
+            },
+            {
+                "name": "DUALITY",
+                "artists": ["proggleyes"]
+            },
+            {
+                "name": "Shoot",
+                "artists": ["Phaceless"]
+            },
+            {
+                "name": "Thinking Distance",
+                "artists": ["vékks"]
+            },
+            {
+                "name": "Mid-Air",
+                "artists": ["ProjectHMF"]
+            }
+        ],
+        "links": {
+           "youtube": "https://www.youtube.com/playlist?list=PLpVJIt6ErLKYUKcngyZctZFXCP2TMTI7F"
+        }
+    },
+    {
+        "name": "Prowler",
+        "date": "Oct 30 2024",
+        "img": "img/rel-Prowler.png",
+        "tracks": [
+            {
+                "artists": ["Bleeve"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=LLx66iD3QHc",
+            "soundcloud": "https://soundcloud.com/dekabass/bleeve-prowler",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1377493"
+        }
+    },
+    {
+        "name": "Day by Day",
+        "date": "Oct 25 2024",
+        "img": "img/rel-DaybyDay.jpg",
+        "tracks": [
+            {
+                "artists": ["proggleyes"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=rNW-qi6f0U8",
+            "soundcloud": "https://soundcloud.com/dekabass/proggleyes-day-by-day",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1377489"
+        }
+    },
+    {
+        "name": "Drive",
+        "date": "Jul 27 2024",
+        "img": "img/rel-Drive.png",
+        "tracks": [
+            {
+                "artists": ["Bleeve"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=-oB-VFX7l8A",
+            "soundcloud": "https://soundcloud.com/dekabass/bleeve-drive",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1347082"
+        }
+    },
+    {
+        "name": "Bang Your Head Against A Wall",
+        "date": "Jul 20 2024",
+        "img": "img/rel-BangYourHeadAgainstAWall.jpg",
+        "tracks": [
+            {
+                "artists": ["Phaceless"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=w-SGqBcXpcw",
+            "soundcloud": "https://soundcloud.com/dekabass/phaceless-bang-your-head-against-a-wall",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1350242"
+        }
+    },
+    {
+        "name": "Thermal Pulse",
+        "date": "Jul 12 2024",
+        "img": "img/rel-ThermalPulse.jpg",
+        "tracks": [
+            {
+                "artists": ["ProjectHMF"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=GuJ_CO02A9A",
+            "soundcloud": "https://soundcloud.com/dekabass/projecthmf-thermal-pulse",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1342352"
+        }
+    },
+    {
+        "name": "Anniversary Vol. 3",
+        "date": "Jan 1 2024",
+        "date_end": "Jan 25 2024",
+        "img": "img/rel-AnniversaryVol3.jpg",
+        "tracks": [
+            {
+                "name": "Empyrean",
+                "artists": ["GZAPPLE"]
+            },
+            {
+                "name": "Reflection",
+                "artists": ["Phaceless"]
+            },
+            {
+                "name": "Clear I",
+                "artists": ["FinnC2"]
+            },
+            {
+                "name": "Clear II",
+                "artists": ["FinnC2"]
+            },
+            {
+                "name": "Descent",
+                "artists": ["Bleeve"]
+            },
+            {
+                "name": "Bad Times",
+                "artists": ["JustTop"]
+            },
+            {
+                "name": "Purgatory",
+                "artists": ["osol"]
+            },
+            {
+                "name": "Fill Blank: |____!",
+                "artists": ["not_woowoo"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=ITDPomGTByE&list=PLpVJIt6ErLKZziHvZ-Y2uy0fzW61oGb9y",
+            "soundcloud": "https://soundcloud.com/dekabass/sets/dekabass-anniversary-vol-3"
+        }
+    },
+    {
+        "name": "Knight",
+        "date": "Nov 30 2023",
+        "img": "img/rel-Knight.png",
+        "tracks": [
+            {
+                "artists": ["Bleeve"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=iVozn3sAOvw",
+            "soundcloud": "https://soundcloud.com/dekabass/bleeve-knight",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1277953"
+        }
+    },
+    {
+        "name": "Anniversary Vol. 2",
+        "date": "Jan 1 2023",
+        "date_end": "Jan 14 2023",
+        "img": "img/rel-AnniversaryVol2.jpg",
+        "tracks": [
+            {
+                "name": "Far Away",
+                "artists": ["FinnC2"]
+            },
+            {
+                "name": "Dissociated",
+                "artists": ["Temnai"]
+            },
+            {
+                "name": "Another Fool's Gambit",
+                "artists": ["DEMON AND MAX", "ARKANGELS"]
+            },
+            {
+                "name": "Without You",
+                "artists": ["FinnC2"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=NyRWbqLbSv0&list=PLpVJIt6ErLKY4eGM2lewHgR9MfkoDkgTn",
+            "soundcloud": "https://soundcloud.com/dekabass/sets/anniversary-vol-2"
+        }
+    },
+    {
+        "name": "Space Lizzard",
+        "date": "Oct 15 2022",
+        "img": "img/rel-SpaceLizzard.jpg",
+        "tracks": [
+            {
+                "artists": ["not_woowoo", "Bleeve"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=MW4rMY7clcw",
+            "soundcloud": "https://soundcloud.com/dekabass/not_woowoo-and-bleeve-space-lizzard",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1165067"
+        }
+    },
+    {
+        "name": "OPERATION",
+        "date": "Aug 23 2022",
+        "img": "img/rel-OPERATION.jpg",
+        "tracks": [
+            {
+                "artists": ["proggleyes"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=iX0XTbFAjUk",
+            "soundcloud": "https://soundcloud.com/dekabass/proggleyes-operation"
+        }
+    },
+    {
+        "name": "Hooper Ball EP",
+        "date": "Aug 9 2022",
+        "date_end": "Aug 13 2022",
+        "img": "img/rel-HooperBallEP.png",
+        "tracks": [
+            {
+                "name": "le bang",
+                "artists": ["Bleeve"]
+            },
+            {
+                "name": "the",
+                "artists": ["GZAPPLE"]
+            },
+            {
+                "name": "Fire emoji Fire emoji Fire emoji Vomit emoji",
+                "artists": ["Temnai"]
+            },
+            {
+                "name": "https://cdn.discordapp.com/emojis/800584192806617088.webp",
+                "artists": ["not_woowoo"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/playlist?list=PLpVJIt6ErLKbnApglM8pS9ap2zNaA0QKJ"
+        }
+    },
+    {
+        "name": "Apathetic",
+        "date": "Jun 11 2022",
+        "img": "img/rel-Apathetic.jpg",
+        "tracks": [
+            {
+                "artists": ["Echozki"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=jxeljAdVKl8",
+            "soundcloud": "https://soundcloud.com/dekabass/echozki-apathetic",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1128935"
+        }
+    },
+    {
+        "name": "Open your heart",
+        "date": "Apr 20 2022",
+        "img": "img/rel-Openyourheart.jpg",
+        "tracks": [
+            {
+                "artists": ["DEMON AND MAX"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=VucjuSBtQh4",
+            "soundcloud": "https://soundcloud.com/dekabass/snare-open-your-heart",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1126043"
+        }
+    },
+    {
+        "name": "Anniversary Vol. 1",
+        "date": "Jan 1 2022",
+        "date_end": "Jan 29 2022",
+        "img": "img/rel-AnniversaryVol1.jpg",
+        "tracks": [
+            {
+                "name": "Dominion",
+                "artists": ["GZAPPLE"]
+            },
+            {
+                "name": "wander",
+                "artists": ["proggleyes"]
+            },
+            {
+                "name": "Mythic",
+                "artists": ["Bleeve"]
+            },
+            {
+                "name": "Genomech",
+                "artists": ["Temnai"]
+            },
+            {
+                "name": "Celestial Opia",
+                "artists": ["Echozki"]
+            },
+            {
+                "name": "Exposure",
+                "artists": ["FinnC2"]
+            },
+            {
+                "name": "imdi Vies",
+                "artists": ["not_woowoo"]
+            },
+            {
+                "name": "Epiphany",
+                "artists": ["Uxvellda"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/playlist?list=PLpVJIt6ErLKb57Ym2u7erV-U6d66_dZou",
+            "soundcloud": "https://soundcloud.com/dekabass/sets/dekabass-anniversary-vol-1"
+        }
+    },
+    {
+        "name": "Reflections EP",
+        "date": "Nov 14 2021",
+        "date_end": "Dec 7 2021",
+        "img": "img/rel-ReflectionsEP.jpg",
+        "tracks": [
+            {
+                "name": "Opening",
+                "artists": ["FinnC2"]
+            },
+            {
+                "name": "Distant",
+                "artists": ["FinnC2"]
+            },
+            {
+                "name": "Below",
+                "artists": ["FinnC2"]
+            },
+            {
+                "name": "Reflections",
+                "artists": ["FinnC2"]
+            },
+            {
+                "name": "one",
+                "artists": ["FinnC2"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/playlist?list=PLpVJIt6ErLKYHtTrHL8Vrsm5UvBrVNIYN",
+            "soundcloud": "https://soundcloud.com/dekabass/sets/finnc2-reflections-ep"
+        }
+    },
+    {
+        "name": "Accelerate",
+        "date": "Oct 17 2021",
+        "img": "img/rel-Accelerate.jpg",
+        "tracks": [
+            {
+                "artists": ["Bleeve"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=BPXFBN9Q3yM",
+            "soundcloud": "https://soundcloud.com/dekabass/bleeve-accelerate",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1084969"
+        }
+    },
+    {
+        "name": "Equilibrium",
+        "date": "Jun 5 2021",
+        "img": "img/rel-Equilibrium.jpg",
+        "tracks": [
+            {
+                "artists": ["GZAPPLE"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=B9K0UIRrQRQ",
+            "soundcloud": "https://soundcloud.com/dekabass/gzapple-equilibrium",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1073195"
+        }
+    },
+    {
+        "name": "Waves of Reality",
+        "date": "May 9 2021",
+        "img": "img/rel-WavesofReality.jpg",
+        "tracks": [
+            {
+                "artists": ["Echozki"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/watch?v=fwYmD7GofF0",
+            "soundcloud": "https://soundcloud.com/dekabass/echozki-waves-of-reality",
+            "newgrounds": "https://www.newgrounds.com/audio/listen/1073193"
+        }
+    },
+    {
+        "name": "Origins",
+        "date": "Jan 1 2021", 
+        "date_end": "Jan 25 2021",
+        "img": "img/rel-Origins.jpg",
+        "tracks": [
+            {
+                "name": "Alala",
+                "artists": ["Echozki"]
+            },
+            {
+                "name": "Revelations",
+                "artists": ["GZAPPLE"]
+            },
+            {
+                "name": "Last Moments",
+                "artists": ["Uxvellda"]
+            },
+            {
+                "name": "Obliviate",
+                "artists": ["TheDarkMage"]
+            },
+            {
+                "name": "Risomg Journ",
+                "artists": ["not_woowoo"]
+            },
+            {
+                "name": "Razorblade",
+                "artists": ["Bleeve"]
+            },
+            {
+                "name": "Shade",
+                "artists": ["Temnai"]
+            }
+        ],
+        "links": {
+            "youtube": "https://www.youtube.com/playlist?list=PLpVJIt6ErLKZOP6rqmcVb5FO-NrQucEAT",
+            "soundcloud": "https://soundcloud.com/dekabass/sets/origins-ep"
+        }
+    }
+]

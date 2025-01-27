@@ -1,0 +1,21 @@
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-top: 80px;
+    margin-bottom: 40px;
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+    animation: fadeIn 2s ease-out 0s forwards, letterSpacing 1.5s ease-out 0s forwards;
+    font-weight: normal;
+}
+
+
+.logo {
+    pointer-events: none;
+    user-select: none;
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+    animation: dropDown 2s ease-out, subtleMovement 3s ease-out 2s infinite alternate;
+    display: block;
+}
